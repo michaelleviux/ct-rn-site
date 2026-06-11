@@ -67,10 +67,14 @@ export default function Home() {
               <div className="absolute top-0 left-0 w-2 h-full bg-secondary"></div>
               <h3 className="text-2xl font-black mb-2">צילום CT</h3>
               <p className="text-gray-500 mb-6 font-medium">צילום תלת-ממדי מדויק להשתלות וטיפולים מורכבים</p>
-              <div className="flex items-baseline gap-2 mb-8">
+              <div className="flex items-baseline gap-2 mb-2">
                 <span className="text-5xl font-black text-primary">₪149</span>
                 <span className="text-gray-400 line-through text-lg">₪450</span>
               </div>
+              <p className="text-secondary font-black text-sm mb-6 flex items-center gap-1">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+                המחיר עבור לסת אחת
+              </p>
               <a href="https://wa.me/972549790938" className="block text-center py-3 bg-primary text-white font-bold rounded-xl group-hover:bg-secondary group-hover:text-primary transition-colors">
                 הזמן תור עכשיו
               </a>
@@ -83,10 +87,14 @@ export default function Home() {
               <div className="absolute top-0 left-0 w-2 h-full bg-secondary"></div>
               <h3 className="text-2xl font-black mb-2">צילום פנורמי</h3>
               <p className="text-gray-500 mb-6 font-medium">צילום רחב ומקיף של כל חלל הפה בתמונה אחת</p>
-              <div className="flex items-baseline gap-2 mb-8">
-                <span className="text-5xl font-black text-primary">₪69</span>
+              <div className="flex items-baseline gap-2 mb-2">
+                <span className="text-5xl font-black text-primary">₪79</span>
                 <span className="text-gray-400 line-through text-lg">₪180</span>
               </div>
+              <p className="text-secondary font-black text-sm mb-6 flex items-center gap-1">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+                המחיר עבור פה מלא
+              </p>
               <a href="https://wa.me/972549790938" className="block text-center py-3 bg-primary text-white font-bold rounded-xl group-hover:bg-secondary group-hover:text-primary transition-colors">
                 הזמן תור עכשיו
               </a>

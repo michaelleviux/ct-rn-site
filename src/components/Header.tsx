@@ -36,14 +36,15 @@ export default function Header() {
                         </button>
 
                         <a
-                            href="tel:0549790938"
+                            href="https://wa.me/972549790938"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="flex items-center gap-2 px-5 py-2.5 bg-secondary text-primary font-bold rounded-xl hover:bg-secondary/90 transition-all shadow-md group"
                         >
-                            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" className="group-hover:rotate-12 transition-transform">
-                                <path d="M6.62 10.79c1.44 2.82 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" className="group-hover:scale-110 transition-transform">
+                                <path d="M12 2C6.48 2 2 6.48 2 12c0 2.17.7 4.19 1.94 5.86L3 21l3.14-1.14C7.81 21.3 9.83 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm-1 14.5v-1c-1.1 0-2-.9-2-2v-1l-4-4c0 3.87 3.13 7 7 7zm5.6-3.2c.26-.81.4-1.67.4-2.3 0-3.87-3.13-7-7-7-1.06 0-2.06.23-2.96.65l1.46 1.46C8.96 5.39 9.46 5.3 10 5.3c3.08 0 5.6 2.34 5.97 5.33l1.63 1.67z"/>
                             </svg>
-                            <span className="hidden sm:inline">054-9790938</span>
-                            <span className="sm:hidden text-base">054-9790938</span>
+                            <span className="font-black">הזמן תור</span>
                         </a>
                     </div>
 
@@ -52,9 +53,9 @@ export default function Header() {
                             <Image
                                 src="/LOGOCTRN.png"
                                 alt="CT RN Logo"
-                                width={160}
-                                height={50}
-                                className="h-10 md:h-12 w-auto object-contain"
+                                width={280}
+                                height={90}
+                                className="h-14 md:h-20 w-auto object-contain"
                                 priority
                             />
                         </Link>

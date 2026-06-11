@@ -30,7 +30,7 @@ export default function Footer() {
                         <ul className="space-y-2 text-gray-300">
                             <li><span className="font-bold text-white">פתח תקווה:</span> חיים עוזר 32</li>
                             <li>טלפון: 054-9790938</li>
-                            <li>מייל: office@ctrn.co.il</li>
+                            <li>מייל: ctrnctrn1@gmail.com</li>
                             <li>שעות פעילות: 10:00-19:00</li>
                         </ul>
                     </div>
